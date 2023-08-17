@@ -9,6 +9,12 @@ This repository is designed to hold a collection of 20 JavaScript projects, whic
 
 ### Infinity Scroll
 
-[Live preview](https://vermillion-puffpuff-312cf5.netlify.app/02-infinity-scroll)
+[Live preview](https://vermillion-puffpuff-312cf5.netlify.app/02-infinity-scroll/)
 
 ![Screen projektu](02-infinity-scroll/InfinityScroll.png)
+
+### Picture in picture
+
+[Live preview](https://vermillion-puffpuff-312cf5.netlify.app/03-picture-in-picture/)
+
+![Screen projektu](02-infinity-scroll/PictureInPicture.png)
