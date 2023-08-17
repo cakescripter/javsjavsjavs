@@ -13,7 +13,7 @@ This repository is designed to hold a collection of 20 JavaScript projects, whic
 
 ![Screen projektu](02-infinity-scroll/InfinityScroll2.png)
 
-### Picture in Picture
+### Picture In Picture
 
 [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/03-picture-in-picture/)
 
