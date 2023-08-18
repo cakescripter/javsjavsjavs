@@ -1,10 +1,9 @@
 const button = document.querySelector('#button')
 const audioElement = document.querySelector('#audio')
-
-// Disable/Enable Button
-function toggleButton() {
-    button.disabled = !button.disabled;
-}
+// // Disable/Enable Button
+// function toggleButton() {
+//     button.disabled = !button.disabled;
+// }
 
 // Function to remove old joke from the webpage
 function removeOldJoke() {
@@ -53,7 +52,7 @@ async function getJokes() {
         }
         tellMe(joke);
         displayJoke(joke);
-        toggleButton();
+        // toggleButton();
     } catch (error) {
         console.log(error);
     }
@@ -62,4 +61,4 @@ async function getJokes() {
 
 // Event Listeners
 button.addEventListener('click', getJokes)
-audioElement.addEventListener('ended', toggleButton)
+// audioElement.addEventListener('ended', toggleButton)
