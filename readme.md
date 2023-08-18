@@ -5,7 +5,7 @@ This repository is designed to hold a collection of 20 JavaScript projects, whic
 
 [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/01-quote-generator/)
 
-Dynamic webpage that fetches quotes from an external API provided by [Jacinto Wong](https://github.com/JacintoDesign). It displays a random quote along with its author, and offers the option to generate a new quote or share the current one on Twitter. The page shows a loading animation while fetching quotes and employs responsive design to handle varying quote lengths.
+Fetches quotes from API by [Jacinto Wong](https://github.com/JacintoDesign),displaying random quotes with authors and enabling quote generation and sharing on Twitter.
 
 ![Screen projektu](01-quote-generator/quoteGenerator.png)
 
@@ -13,7 +13,7 @@ Dynamic webpage that fetches quotes from an external API provided by [Jacinto Wo
 
 [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/02-infinity-scroll/)
 
-Interactive webpage is built to display a grid of random images fetched from the [Unsplash API](https://unsplash.com/developers). As the user scrolls down the page, more images are loaded dynamically. A loader is displayed during the initial loading phase, and once images are loaded, they are presented in a responsive grid layout.
+Displays a grid of random images from the [Unsplash API](https://unsplash.com/developers) that load dynamically as users scroll.
 
 ![Screen projektu](02-infinity-scroll/InfinityScroll.png)
 
@@ -21,7 +21,7 @@ Interactive webpage is built to display a grid of random images fetched from the
 
 [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/03-picture-in-picture/)
 
-Enable user to capture their screen using the [Screen Capture API](https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API/Using_Screen_Capture) and display it in a video element. It also offers a button to activate the Picture-in-Picture mode for the video, allowing the captured screen content to be displayed in a smaller, draggable window while continuing to use other applications. [useful article i followed](https://css-tricks.com/an-introduction-to-the-picture-in-picture-web-api/)
+Allows users to capture and display their screen using the [Screen Capture API](https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API/Using_Screen_Capture) in a resizable Picture-in-Picture window while continuing to use other applications. [nice article i followed](https://css-tricks.com/an-introduction-to-the-picture-in-picture-web-api/)
 
 ![Screen projektu](03-picture-in-picture/PictureInPicture.png)
 
@@ -29,4 +29,5 @@ Enable user to capture their screen using the [Screen Capture API](https://devel
 
 [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/04-joke-teller/)
 
+Fetches programming-related jokes from the [Joke API](https://sv443.net/jokeapi/v2/), converting them to audio using the [VoiceRSS API](https://www.voicerss.org/api/) for playback.
 ![Screen projektu](04-joke-teller/JokeTeller.png)
