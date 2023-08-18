@@ -1,6 +1,18 @@
 ## JS Projects
 This repository is designed to hold a collection of 20 JavaScript projects, which were undertaken as components of the course instructed by Andrei Neagoie and Jacinto Wong. All projects completed so far can be found [here](https://vermillion-puffpuff-312cf5.netlify.app).
 
+### Table of Contents
+
+1. [JS Projects](#js-projects)
+   - [Quote Generator](#quote-generator)
+   - [Infinity Scroll](#infinity-scroll)
+   - [Picture In Picture](#picture-in-picture)
+   - [Joke Teller](#joke-teller)
+   - [Light & Dark Mode](#light-dark-mode)
+   TBA
+2. [Credits](#credits)
+
+
 ### Quote Generator
 
 [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/01-quote-generator/)
@@ -40,3 +52,6 @@ Fetches programming-related jokes from the [Joke API](https://sv443.net/jokeapi/
 Dynamic theme switcher to toggle between light and dark modes by clicking a checkbox. Chosen theme remains after reloading the page through local storage.
 
 ![Screen projektu](05-light-dark-mode/LightDarkMode.png)
+
+### Credits
+Designs from [heropatterns](https://heropatterns.com) are frequently used in these projects, borders used in html are borrowed from [this codepen](https://codepen.io/t_afif/pen/eYeqvMe).
