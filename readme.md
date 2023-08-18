@@ -1,4 +1,4 @@
-## Small JS Projects
+## JS Projects
 This repository is designed to hold a collection of 20 JavaScript projects, which were undertaken as components of the course instructed by Andrei Neagoie and Jacinto Wong. All projects completed so far can be found [here](https://vermillion-puffpuff-312cf5.netlify.app).
 
 ### Quote Generator
@@ -11,7 +11,7 @@ This repository is designed to hold a collection of 20 JavaScript projects, whic
 
 [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/02-infinity-scroll/)
 
-![Screen projektu](02-infinity-scroll/InfinityScroll2.png)
+![Screen projektu](02-infinity-scroll/InfinityScroll.png)
 
 ### Picture In Picture
 
