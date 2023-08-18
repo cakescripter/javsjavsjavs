@@ -21,7 +21,7 @@ Interactive webpage is built to display a grid of random images fetched from the
 
 [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/03-picture-in-picture/)
 
-Enable user to capture their screen using the browser's [media device API](https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API/Using_Screen_Capture) and display it in a video element. It also offers a button to activate the Picture-in-Picture mode for the video, allowing the captured screen content to be displayed in a smaller, draggable window while continuing to use other applications.
+Enable user to capture their screen using the [Screen Capture API](https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API/Using_Screen_Capture) and display it in a video element. It also offers a button to activate the Picture-in-Picture mode for the video, allowing the captured screen content to be displayed in a smaller, draggable window while continuing to use other applications. [useful article i followed](https://css-tricks.com/an-introduction-to-the-picture-in-picture-web-api/)
 
 ![Screen projektu](03-picture-in-picture/PictureInPicture.png)
 
