@@ -8,9 +8,10 @@ const textBox = document.querySelector('#text-box')
 
 function applyTheme(isDarkMode) {
     const theme = isDarkMode ? 'dark' : 'light'
-
-    const navColor = isDarkMode ? 'rgb(0 0 0 / 50%)' : 'rgb(255 255 255 / 50%)'
-    const textBoxColor = isDarkMode ? 'rgb(255 255 255 / 50%)' : 'rgb(0 0 0 / 50%)'
+    const bblack = 'rgb(0 0 0 / 50%)'
+    const wwhite = 'rgb(255 255 255 / 50%)'
+    const navColor = isDarkMode ? bblack : wwhite
+    const textBoxColor = isDarkMode ? wwhite : bblack
     const toggleText = isDarkMode ? 'Dark Mode' : 'Light Mode'
     const toggleIconClass = isDarkMode ? ['fa-sun', 'fa-moon'] : ['fa-moon', 'fa-sun']
     const imageSuffix = isDarkMode ? '_dark' : '_light'

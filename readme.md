@@ -30,4 +30,13 @@ Allows users to capture and display their screen using the [Screen Capture API](
 [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/04-joke-teller/)
 
 Fetches programming-related jokes from the [Joke API](https://sv443.net/jokeapi/v2/), converting them to audio using the [VoiceRSS API](https://www.voicerss.org/api/) for playback.
+
 ![Screen projektu](04-joke-teller/JokesOnYou.png)
+
+### Light & Dark Mode
+
+[Live preview](https://vermillion-puffpuff-312cf5.netlify.app/05-light-dark-mode/)
+
+Dynamic theme switcher to toggle between light and dark modes by clicking a checkbox. Chosen theme remains after reloading the page through local storage.
+
+![Screen projektu](05-light-dark-mode/LightDarkMode.png)
