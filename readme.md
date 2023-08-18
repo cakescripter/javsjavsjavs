@@ -5,7 +5,7 @@ This repository is designed to hold a collection of 20 JavaScript projects, whic
 
 [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/01-quote-generator/)
 
-Fetches quotes from API by [Jacinto Wong](https://github.com/JacintoDesign),displaying random quotes with authors and enabling quote generation and sharing on Twitter.
+Fetches quotes from API by [Jacinto Wong](https://github.com/JacintoDesign), displaying random quotes with authors and enabling quote generation and sharing on Twitter.
 
 ![Screen projektu](01-quote-generator/quoteGenerator.png)
 
