@@ -18,3 +18,9 @@ This repository is designed to hold a collection of 20 JavaScript projects, whic
 [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/03-picture-in-picture/)
 
 ![Screen projektu](03-picture-in-picture/PictureInPicture.png)
+
+### Joke Teller
+
+[Live preview](https://vermillion-puffpuff-312cf5.netlify.app/04-joke-teller/)
+
+![Screen projektu](04-joke-teller/JokeTeller.png)
