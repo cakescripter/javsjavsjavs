@@ -31,3 +31,9 @@ Allows users to capture and display their screen using the [Screen Capture API](
 
 Fetches programming-related jokes from the [Joke API](https://sv443.net/jokeapi/v2/), converting them to audio using the [VoiceRSS API](https://www.voicerss.org/api/) for playback.
 ![Screen projektu](04-joke-teller/JokeTeller.png)
+
+### Light & Dark Mode
+
+[Live preview](https://vermillion-puffpuff-312cf5.netlify.app/05-light-dark-mode/)
+
+![Screen projektu]()
