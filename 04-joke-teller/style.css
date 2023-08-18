@@ -20,6 +20,21 @@ body {
   background-size: contain;
   background-position: left center;
   background-repeat: no-repeat;
+  position: relative;
+  /* Needed for absolute positioning of joke paragraph */
+}
+
+/* Add styling for the joke paragraph */
+.joke {
+  position: absolute;
+  bottom: 20vh;
+  /* Adjust as needed */
+  right: 15vw;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  color: blue;
+  z-index: 1;
 }
 
 button {
@@ -59,4 +74,11 @@ button:disabled {
     box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
   }
 
+  .joke {
+    position: absolute;
+    bottom: 20vh;
+    /* Adjust as needed */
+    right: 10vw;
+    left: 10vw;
+  }
 }
