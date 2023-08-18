@@ -27,14 +27,16 @@ body {
 /* Add styling for the joke paragraph */
 .joke {
   position: absolute;
-  bottom: 20vh;
+  top: 70vh;
   /* Adjust as needed */
-  right: 15vw;
+  left: 40vw;
+  margin: 10px;
   background-color: white;
   padding: 10px;
   border-radius: 10px;
   color: blue;
   z-index: 1;
+  font-size: 25px;
 }
 
 button {
@@ -76,7 +78,6 @@ button:disabled {
 
   .joke {
     position: absolute;
-    bottom: 20vh;
     /* Adjust as needed */
     right: 10vw;
     left: 10vw;
