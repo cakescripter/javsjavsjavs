@@ -8,7 +8,7 @@ This repository is designed to hold a collection of 20 JavaScript projects, whic
 2. [Infinity Scroll](#infinity-scroll)
 3. [Picture In Picture](#picture-in-picture)
 4. [Joke Teller](#joke-teller)
-5. [Light & Dark Mode](#light-&-dark-mode)
+5. [Light/Dark Mode](#light/dark-mode)
 6. [Animated Template](#animated-template)
 
 
@@ -44,7 +44,7 @@ Fetches programming-related jokes from the [Joke API](https://sv443.net/jokeapi/
 
 ![Screen projektu](04-joke-teller/JokesOnYou.png)
 
-### Light & Dark Mode
+### Light/Dark Mode
 
 :rocket: [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/05-light-dark-mode/)
 
