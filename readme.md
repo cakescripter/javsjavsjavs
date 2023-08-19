@@ -8,7 +8,7 @@ This repository is designed to hold a collection of 20 JavaScript projects, whic
 2. [Infinity Scroll](#infinity-scroll)
 3. [Picture In Picture](#picture-in-picture)
 4. [Joke Teller](#joke-teller)
-5. [Light & Dark Mode](#light-dark-mode)
+5. [Light & Dark Mode](#light-&-dark-mode)
 6. [Animated Template](#animated-template)
 
 
