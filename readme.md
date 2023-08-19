@@ -4,15 +4,12 @@ This repository is designed to hold a collection of 20 JavaScript projects, whic
 :rocket: [DEMO](https://vermillion-puffpuff-312cf5.netlify.app)
 
 ### Table of Contents
-
-1. [JS Projects](#js-projects)
-   - [Quote Generator](#quote-generator)
-   - [Infinity Scroll](#infinity-scroll)
-   - [Picture In Picture](#picture-in-picture)
-   - [Joke Teller](#joke-teller)
-   - [Light & Dark Mode](#light-dark-mode)
-   - [Animated Template](#animated-template)
-2. [Credits](#credits)
+1. [Quote Generator](#quote-generator)
+2. [Infinity Scroll](#infinity-scroll)
+3. [Picture In Picture](#picture-in-picture)
+4. [Joke Teller](#joke-teller)
+5. [Light & Dark Mode](#light-dark-mode)
+6. [Animated Template](#animated-template)
 
 
 ### Quote Generator
