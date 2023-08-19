@@ -1,5 +1,6 @@
 ## JS Projects
 This repository is designed to hold a collection of 20 JavaScript projects, which were undertaken as components of the course instructed by Andrei Neagoie and Jacinto Wong.
+
 :rocket: [DEMO](https://vermillion-puffpuff-312cf5.netlify.app)
 
 ### Table of Contents
@@ -10,7 +11,7 @@ This repository is designed to hold a collection of 20 JavaScript projects, whic
    - [Picture In Picture](#picture-in-picture)
    - [Joke Teller](#joke-teller)
    - [Light & Dark Mode](#light-dark-mode)
-   TBA
+   - [Animated Template](#animated-template)
 2. [Credits](#credits)
 
 
@@ -58,8 +59,9 @@ Dynamic theme switcher to toggle between light and dark modes by clicking a chec
 
 :rocket: [Demo](https://vermillion-puffpuff-312cf5.netlify.app/06-animated-template/)
 
-[Creative Tim](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/landing)
-[Animate On Scroll Library](https://github.com/michalsnik/aos)
+Animated landing page made using a starter kit from [Creative Tim](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/landing) and [Animate On Scroll Library](https://github.com/michalsnik/aos) (AOS) library from michalsnik.
+
+![Screen projektu](06-animated-template/AnimatedTemplate.png)
 
 ### Credits
 Designs from [heropatterns](https://heropatterns.com) are frequently used in these projects, borders used in html are borrowed from [this codepen](https://codepen.io/t_afif/pen/eYeqvMe).
