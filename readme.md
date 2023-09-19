@@ -10,6 +10,7 @@ This repository is designed to hold a collection of 20 JavaScript projects, whic
 4. [Joke Teller](#joke-teller)
 5. [Dark Mode](#dark-mode)
 6. [Animated Template](#animated-template)
+7. [Animated Navigation](#animated-navigation)
 
 
 ### Quote Generator
@@ -60,7 +61,7 @@ Animated landing page made using a starter kit from [Creative Tim](https://www.c
 
 ![Screen projektu](06-animated-template/AnimatedTemplate.png)
 
-### Navigation Animation
+### Animated Navigation
 
 :rocket: [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/07-animated-navigation/)
 
