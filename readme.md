@@ -59,3 +59,11 @@ Dynamic theme switcher to toggle between light and dark modes by clicking a chec
 Animated landing page made using a starter kit from [Creative Tim](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/landing) and [Animate On Scroll Library](https://github.com/michalsnik/aos) (AOS) from michalsnik.
 
 ![Screen projektu](06-animated-template/AnimatedTemplate.png)
+
+### Navigation Animation
+
+:rocket: [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/07-animated-navigation/)
+
+Dynamic navigation menu with smooth animations and a toggleable overlay. Navigation items slide in and out gracefully when clicked.
+
+![Screen projektu](07-animated-navigation/AnimatedNavigation.png)
