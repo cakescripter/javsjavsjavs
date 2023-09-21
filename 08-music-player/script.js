@@ -15,19 +15,19 @@ const nextBtn = document.querySelector('#next')
 
 const songs = [
     {
-        name: 'jacinto-1',
-        displayName: 'Electric Chill Machine',
-        artist: 'Jacinto Design',
+        name: 'Rabbits',
+        displayName: 'Rabbits',
+        artist: 'Paradís',
     },
     {
-        name: 'jacinto-2',
-        displayName: 'Seven Nation Army (Remix)',
-        artist: 'Jacinto Design',
+        name: 'Na Wesiliu Pid Chatoju',
+        displayName: 'Na Wesiliu Pid Chatoju',
+        artist: 'Pawlo Humeniuk',
     },
     {
-        name: 'jacinto-3',
-        displayName: 'Goodnight, Disco Queen',
-        artist: 'Jacinto Design',
+        name: 'José Mercado',
+        displayName: 'José Mercado',
+        artist: 'Serú Girán',
     },
 ]
 
@@ -49,7 +49,7 @@ function pauseSong() {
 function loadSong(song) {
     title.textContent = song.displayName
     artist.textContent = song.artist
-    music.src = `music/${song.name}.mp3`
+    music.src = `music/${song.name}.wav`
     img.src = `img/${song.name}.jpg`
 }
 
