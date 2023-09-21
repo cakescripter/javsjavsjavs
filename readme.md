@@ -68,3 +68,11 @@ Animated landing page made using a starter kit from [Creative Tim](https://www.c
 Dynamic navigation menu with smooth animations and a toggleable overlay. Navigation items slide in and out gracefully when clicked.
 
 ![Screen projektu](07-animated-navigation/AnimatedNavigation.png)
+
+### Music Player
+
+:rocket: [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/08-music-player/)
+
+A functional Music Player with play, pause, and track navigation capabilities. Includes dynamic progress tracking and displays artist album art.
+
+![Screen projektu](08-music-player/MusicPlayer.png)
