@@ -15,20 +15,26 @@ const nextBtn = document.querySelector('#next')
 
 const songs = [
     {
+        name: 'fieldtrip',
+        displayName: 'fieldtrip',
+        artist: 'Esqq',
+    },
+    {
         name: 'Rabbits',
         displayName: 'Rabbits',
         artist: 'Paradís',
-    },
-    {
-        name: 'Na Wesiliu Pid Chatoju',
-        displayName: 'Na Wesiliu Pid Chatoju',
-        artist: 'Pawlo Humeniuk',
     },
     {
         name: 'José Mercado',
         displayName: 'José Mercado',
         artist: 'Serú Girán',
     },
+    {
+        name: 'Na Wesiliu Pid Chatoju',
+        displayName: 'Na Wesiliu Pid Chatoju',
+        artist: 'Pawlo Humeniuk',
+    },
+
 ]
 
 let isPlaying = false;
