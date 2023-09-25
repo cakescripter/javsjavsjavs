@@ -35,11 +35,8 @@ video {
   top: 0;
   height: 100vh;
   width: 100vw;
-<<<<<<< HEAD
   background: rgba(255, 255, 255, 0.35);
-=======
-  background-color: rgba(255, 255, 255, 0.35);
->>>>>>> 972c6d24111da97ca4bae73cc166477d44762419
+
 }
 
 /* Container */
@@ -53,12 +50,9 @@ video {
   z-index: 2;
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
   background: rgba(255, 255, 255, 0.85);
-=======
-  background-color: rgba(255, 255, 255, 0.85);
->>>>>>> 972c6d24111da97ca4bae73cc166477d44762419
 }
+
 
 .input-container {
   position: relative;
@@ -108,14 +102,8 @@ button {
 }
 
 button:hover {
-<<<<<<< HEAD
   filter: brightness(110%)
 }
-
-=======
-  filter: brightness(110%);
-}
->>>>>>> 972c6d24111da97ca4bae73cc166477d44762419
 
 /* Countdown */
 ul {
