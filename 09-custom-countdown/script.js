@@ -85,7 +85,7 @@ function reset() {
 }
 
 function restorePreviousCountdown() {
-    // Get countdown from LS
+    // Get Countdown from LS
     if (localStorage.getItem('countdown')) {
         inputContainer.hidden = true
         savedCountdown = JSON.parse(localStorage.getItem('countdown'))

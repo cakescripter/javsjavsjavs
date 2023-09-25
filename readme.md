@@ -11,6 +11,8 @@ This repository is designed to hold a collection of 20 JavaScript projects, whic
 5. [Dark Mode](#dark-mode)
 6. [Animated Template](#animated-template)
 7. [Animated Navigation](#animated-navigation)
+8. [Music Player](#music-player)
+9. [Custom Countdown](#custom-countdown)
 
 
 ### Quote Generator
@@ -76,3 +78,13 @@ Dynamic navigation menu with smooth animations and a toggleable overlay. Navigat
 A functional Music Player with play, pause, and track navigation capabilities. Includes dynamic progress tracking and displays artist album art.
 
 ![Screen projektu](08-music-player/MusicPlayer.png)
+
+### Custom Countdown
+
+:rocket: [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/09-custom-countdown/)
+
+A customizable countdown timer designed for tracking personal events. Utilizes local storage to save event details, ensuring your countdowns persist between sessions.
+
+### Book Keeper
+
+TBA ; - D
