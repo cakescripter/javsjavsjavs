@@ -85,6 +85,8 @@ A functional Music Player with play, pause, and track navigation capabilities. I
 
 A customizable countdown timer designed for tracking personal events. Utilizes local storage to save event details, ensuring your countdowns persist between sessions.
 
+![Screen projektu](09-custom-countdown/CustomCountdown.png)
+
 ### Book Keeper
 
 TBA ; - D
