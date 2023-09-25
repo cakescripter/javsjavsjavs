@@ -35,7 +35,11 @@ video {
   top: 0;
   height: 100vh;
   width: 100vw;
+<<<<<<< HEAD
   background: rgba(255, 255, 255, 0.35);
+=======
+  background-color: rgba(255, 255, 255, 0.35);
+>>>>>>> 972c6d24111da97ca4bae73cc166477d44762419
 }
 
 /* Container */
@@ -49,7 +53,11 @@ video {
   z-index: 2;
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
   background: rgba(255, 255, 255, 0.85);
+=======
+  background-color: rgba(255, 255, 255, 0.85);
+>>>>>>> 972c6d24111da97ca4bae73cc166477d44762419
 }
 
 .input-container {
@@ -100,9 +108,14 @@ button {
 }
 
 button:hover {
+<<<<<<< HEAD
   filter: brightness(110%)
 }
 
+=======
+  filter: brightness(110%);
+}
+>>>>>>> 972c6d24111da97ca4bae73cc166477d44762419
 
 /* Countdown */
 ul {
@@ -110,7 +123,7 @@ ul {
 }
 
 li {
-
+  display: inline-block;
   font-size: 30px;
   list-style-type: none;
   padding: 10px;
@@ -129,6 +142,32 @@ li span {
   top: 60px;
 }
 
+.complete-title {
+  animation: complete 4s infinite;
+}
+
+@keyframes complete {
+  0% {
+    color: rgb(180, 17, 17);
+  }
+
+  25% {
+    color: rgb(180, 137, 17);
+  }
+
+  50% {
+    color: rgb(17, 180, 52);
+    transform: scale(1.5);
+  }
+
+  75% {
+    color: rgb(17, 74, 180);
+  }
+
+  100% {
+    color: rgb(180, 17, 172);
+  }
+}
 
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
