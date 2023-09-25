@@ -3,10 +3,12 @@ const countdownForm = document.querySelector('#countdownForm')
 const dateEl = document.querySelector('#date-picker')
 
 const countdownEl = document.querySelector('#countdown')
+const countdownElTitle = document.querySelector('#countdown-title')
+const countdownBtn = document.querySelector('#countdown-button')
+const timeElements = document.querySelectorAll('span')
 
 let countdownTitle = ''
 let countdownDate = ''
-
 let countdownValue = Date;
 
 // Set Date Input Min with Today's Date
