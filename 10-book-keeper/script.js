@@ -53,7 +53,7 @@ function buildBookmarks() {
         linkInfo.classList.add('name')
         // Favicon
         const favicon = document.createElement('img')
-        favicon.setAttribute('src', `httpss://s2.googleusercontent.com/s2/favicons?domain=${url}`)
+        favicon.setAttribute('src', `https://s2.googleusercontent.com/s2/favicons?domain=${url}`)
         favicon.setAttribute('alt', 'Favicon')
         // Link
         const link = document.createElement('a')

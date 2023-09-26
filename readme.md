@@ -13,6 +13,9 @@ This repository is designed to hold a collection of 20 JavaScript projects, whic
 7. [Animated Navigation](#animated-navigation)
 8. [Music Player](#music-player)
 9. [Custom Countdown](#custom-countdown)
+10. [Book Keeper](#book-keeper)
+11. [Video Player](#video-player)
+12. [Form Validator](#form-validator)
 
 
 ### Quote Generator
@@ -89,4 +92,26 @@ A customizable countdown timer designed for tracking personal events. Utilizes l
 
 ### Book Keeper
 
+:rocket: [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/10-book-keeper/)
+
+A versatile bookmark manager with essential features for adding and deleting bookmarks, automatically fetching website favicons to enhance visual organization, and employing local storage for efficient online resource management.
+
+![Screen projektu](10-book-keeper/BookKeeper.png)
+
+### Video Player
+
 TBA ; - D
+
+### Form Validator
+
+:rocket: [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/12-form-validator/)
+
+Form checks the validity of user input, verifies password matching, and delivers color-coded feedback. Upon successful validation, it stores user data and can be conveniently extended for additional functionality. It operates effectively utilizing the Constraint API.
+
+![Screen projektu](12-form-validator/FormValidator.png)
+ 
+### Spock Rock Game
+
+TBA ; - D
+
+
