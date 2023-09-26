@@ -13,22 +13,23 @@
     <div class="container">
         <h1>Sign Up Today!</h1>
         <!-- Form -->
-        <form id="form">
+        <form id="form" novalidate>
             <div class="form-group">
                 <label for="name">Full Name</label>
-                <input type="text" id="name" placeholder="Full Name" required minlength="3" maxlength="50">
+                <input type="text" id="name" placeholder="Full Name" name="name" required minlength="3" maxlength="50">
             </div>
             <div class="form-group">
                 <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" placeholder="555-555-555" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+                <input type="tel" id="phone" placeholder="555-555-555" name="phone" required
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
             </div>
             <div class="form-group">
                 <label for="email">Email address</label>
-                <input type="email" id="email" placeholder="example@gmail.com" required>
+                <input type="email" id="email" placeholder="example@gmail.com" name="email" required>
             </div>
             <div class="form-group">
                 <label for="website">Website URL</label>
-                <input type="url" id="website" placeholder="google.com" required>
+                <input type="url" id="website" placeholder="google.com" name="website" required>
             </div>
             <div class="form-group">
                 <label for="password1">Password</label>
@@ -38,7 +39,7 @@
             </div>
             <div class="form-group">
                 <label for="password2">Password</label>
-                <input type="password" id="password2" placeholder="Confirm password" required
+                <input type="password" id="password2" placeholder="Confirm password" name="password" required
                     pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$">
             </div>
             <button type="submit">Register</button>

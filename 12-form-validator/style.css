@@ -52,7 +52,7 @@ input {
 }
 
 input:valid {
-  border: 1px olid green;
+  border: 1px solid green;
 }
 
 input:invalid {
