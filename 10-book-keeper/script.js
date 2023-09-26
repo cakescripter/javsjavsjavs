@@ -6,6 +6,8 @@ const websiteNameEl = document.querySelector('#website-name')
 const websiteUrlEl = document.querySelector('#website-url')
 const bookmarksContainer = document.querySelector('#bookmarks-container')
 
+let bookmarks = []
+
 // Show Modal, Focus on Input
 function showModal() {
     modal.classList.add('show-modal')
@@ -18,8 +20,8 @@ modalClose.addEventListener('click', () => modal.classList.remove('show-modal'))
 window.addEventListener('click', (e) => (e.target === modal ? modal.classList.remove('show-modal') : false))
 
 function validate(nameValue, urlValue) {
-    const expression = /https ?: \/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/g
-    const regex = new RegExp(expression)
+    const expression = /[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)?/gi;
+    const regex = new RegExp(expression);
     if (!nameValue || !urlValue) {
         alert('Submit both fields')
         return false
@@ -43,6 +45,15 @@ function storeBookmark(e) {
     if (!validate(nameValue, urlValue)) {
         return false
     }
+
+    const bookmark = {
+        name: nameValue,
+        url: urlValue,
+    }
+    bookmarks.push(bookmark)
+
+    bookmarkForm.reset()
+    websiteNameEl.focus()
 }
 
 
