@@ -154,4 +154,3 @@ function select(playerChoice) {
 window.select = select
 
 resetAll()
-startConfetti()
