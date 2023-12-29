@@ -16,6 +16,7 @@ This repository is designed to hold a collection of 20 JavaScript projects, whic
 10. [Book Keeper](#book-keeper)
 11. [Video Player](#video-player)
 12. [Form Validator](#form-validator)
+13. [Spock Rock Game](#spock-rock-game)
 
 
 ### Quote Generator
@@ -112,6 +113,10 @@ Form checks the validity of user input, verifies password matching, and delivers
  
 ### Spock Rock Game
 
-TBA ; - D
+:rocket: [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/13-spock-rock-game/)
+
+blabla
+
+![Screen projektu](12-form-validator/SpockRockGame.png)
 
 
