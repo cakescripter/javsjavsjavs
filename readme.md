@@ -25,7 +25,7 @@ This repository is designed to hold a collection of 20 JavaScript projects, whic
 
 Fetches quotes from API by [Jacinto Wong](https://github.com/JacintoDesign), displaying random quotes with authors and enabling quote generation and sharing on Twitter.
 
-![Screen projektu](01-quote-generator/Quotes.png)
+![Screen projektu](00-placeholder/Quotes_resized.png)
 
 ### Infinity Scroll
 
@@ -33,7 +33,7 @@ Fetches quotes from API by [Jacinto Wong](https://github.com/JacintoDesign), dis
 
 Displays a grid of random images from the [Unsplash API](https://unsplash.com/developers) that load dynamically as users scroll.
 
-![Screen projektu](02-infinity-scroll/InfinityScroll.png)
+![Screen projektu](00-placeholder/InfinityScroll_resized.png)
 
 ### Picture In Picture
 
@@ -41,7 +41,7 @@ Displays a grid of random images from the [Unsplash API](https://unsplash.com/de
 
 Allows users to capture and display their screen using the [Screen Capture API](https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API/Using_Screen_Capture) in a resizable Picture-in-Picture window while continuing to use other applications. [nice article i followed](https://css-tricks.com/an-introduction-to-the-picture-in-picture-web-api/)
 
-![Screen projektu](03-picture-in-picture/PictureInPicture.png)
+![Screen projektu](00-placeholder/PictureInPicture_resized.png)
 
 ### Joke Teller
 
@@ -49,7 +49,7 @@ Allows users to capture and display their screen using the [Screen Capture API](
 
 Fetches programming-related jokes from the [Joke API](https://sv443.net/jokeapi/v2/), converting them to audio using the [VoiceRSS API](https://www.voicerss.org/api/) for playback.
 
-![Screen projektu](04-joke-teller/JokesOnYou.png)
+![Screen projektu](00-placeholder/JokesOnYou_resized.png)
 
 ### Dark Mode
 
@@ -57,7 +57,7 @@ Fetches programming-related jokes from the [Joke API](https://sv443.net/jokeapi/
 
 Dynamic theme switcher to toggle between light and dark modes by clicking a checkbox. Chosen theme remains after reloading the page through local storage.
 
-![Screen projektu](05-light-dark-mode/LightDarkMode.png)
+![Screen projektu](00-placeholder/LightDarkMode_resized.png)
 
 ### Animated Template
 
@@ -65,7 +65,7 @@ Dynamic theme switcher to toggle between light and dark modes by clicking a chec
 
 Animated landing page made using a starter kit from [Creative Tim](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/landing) and [Animate On Scroll Library](https://github.com/michalsnik/aos) (AOS) from michalsnik.
 
-![Screen projektu](06-animated-template/AnimatedTemplate.png)
+![Screen projektu](00-placeholder/AnimatedTemplate_resized.png)
 
 ### Animated Navigation
 
@@ -73,7 +73,7 @@ Animated landing page made using a starter kit from [Creative Tim](https://www.c
 
 Dynamic navigation menu with smooth animations and a toggleable overlay. Navigation items slide in and out gracefully when clicked.
 
-![Screen projektu](07-animated-navigation/AnimatedNavigation.png)
+![Screen projektu](00-placeholder/AnimatedNavigation_resized.png)
 
 ### Music Player
 
@@ -81,7 +81,7 @@ Dynamic navigation menu with smooth animations and a toggleable overlay. Navigat
 
 A functional Music Player with play, pause, and track navigation capabilities. Includes dynamic progress tracking and displays artist album art.
 
-![Screen projektu](08-music-player/MusicPlayer.png)
+![Screen projektu](00-placeholder/MusicPlayer_resized.png)
 
 ### Custom Countdown
 
@@ -89,7 +89,7 @@ A functional Music Player with play, pause, and track navigation capabilities. I
 
 A customizable countdown timer designed for tracking personal events. Utilizes local storage to save event details, ensuring your countdowns persist between sessions.
 
-![Screen projektu](09-custom-countdown/CustomCountdown.png)
+![Screen projektu](00-placeholder/CustomCountdown_resized.png)
 
 ### Book Keeper
 
@@ -97,7 +97,7 @@ A customizable countdown timer designed for tracking personal events. Utilizes l
 
 A versatile bookmark manager with essential features for adding and deleting bookmarks, automatically fetching website favicons to enhance visual organization, and employing local storage for efficient online resource management.
 
-![Screen projektu](10-book-keeper/BookKeeper.png)
+![Screen projektu](00-placeholder/BookKeeper_resized.png)
 
 ### Video Player
 
@@ -109,14 +109,10 @@ TBA ; - D
 
 Form checks the validity of user input, verifies password matching, and delivers color-coded feedback. Upon successful validation, it stores user data and can be conveniently extended for additional functionality. It operates effectively utilizing the Constraint API.
 
-![Screen projektu](12-form-validator/FormValidator.png)
+![Screen projektu](00-placeholder/FormValidator_resized.png)
  
 ### Spock Rock Game
 
 :rocket: [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/13-spock-rock-game/)
 
-blabla
-
-![Screen projektu](12-form-validator/SpockRockGame.png)
-
-
+![Screen projektu](00-placeholder/SpockRockGame_resized.png)
