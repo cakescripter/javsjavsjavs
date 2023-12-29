@@ -115,6 +115,7 @@ Form checks the validity of user input, verifies password matching, and delivers
 
 :rocket: [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/13-spock-rock-game/)
 
+Browser-based game implementing a Rock-Paper-Scissors-Lizard-Spock game logic. It incorporates a visual enhancement using a [Confetti Falling Animation](https://www.cssscript.com/confetti-falling-animation/).
 
 ![Screen projektu](12-form-validator/SpockRockGame.png)
 
