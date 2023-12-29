@@ -117,6 +117,6 @@ Form checks the validity of user input, verifies password matching, and delivers
 
 Browser-based game implementing a Rock-Paper-Scissors-Lizard-Spock game logic. It incorporates a visual enhancement using a [Confetti Falling Animation](https://www.cssscript.com/confetti-falling-animation/).
 
-![Screen projektu](12-form-validator/SpockRockGame.png)
+![Screen projektu](13-spock-rock-game/SpockRockGame.png)
 
 
