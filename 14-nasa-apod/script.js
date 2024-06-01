@@ -2,18 +2,20 @@ const resultsNav = document.getElementById('resultsNav')
 const favouritesNav = document.getElementById('favouritesNav')
 const imagesContainer = document.querySelector('.images-container')
 const SaveConfirmed = document.querySelector('.save-confirmed')
-const loader = document.querySelector('loader')
+const loader = document.querySelector('.loader')
 
 // NASA API
 const count = 10
-const apiKey = 'DEMO_KEY'
+//const apiKey = 'DEMO_KEY'
+const apiKey = 'xMOAx75kxDyHAxxwg5WlgrDEfSbsDhZpA7vNK6ov'
 const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&count=${count}`
 
 let resultsArray = []
 let favourites = {}
 
-function updateDOM() {
-    resultsArray.forEach((result) => {
+function createDOMNodes(page) {
+    const currentArray = page === 'results' ? resultsArray : Object.values(favourites)
+    currentArray.forEach((result) => {
         // Card Container
         const card = document.createElement('div')
         card.classList.add('card')
@@ -38,8 +40,13 @@ function updateDOM() {
         // Save Text
         const saveText = document.createElement('p')
         saveText.classList.add('clickable')
-        saveText.textContent = 'Add To Favourites'
-        saveText.setAttribute('onclick', `saveFavourite('${result.url}')`)
+        if (page === 'results') {
+            saveText.textContent = 'Add To Favourites'
+            saveText.setAttribute('onclick', `saveFavourite('${result.url}')`)
+        } else {
+            saveText.textContent = 'Remove from Favourites'
+            saveText.setAttribute('onclick', `removeFavourite('${result.url}')`)
+        }
         // Card Text
         const cardText = document.createElement('p')
         cardText.textContent = result.explanation
@@ -62,12 +69,21 @@ function updateDOM() {
     })
 }
 
+function updateDOM(page) {
+    // Get Favourites from localStorage
+    if (localStorage.getItem('nasaFavourites')) {
+        favourites = JSON.parse(localStorage.getItem('nasaFavourites'))
+    }
+    imagesContainer.textContent = ''
+    createDOMNodes(page)
+}
+
 // Get 10 images from NASA API
 async function getNasaPictures() {
     try {
         const response = await fetch(apiUrl)
         resultsArray = await response.json()
-        updateDOM()
+        updateDOM('results')
     } catch (e) {
         // Catch Error Here
     }
@@ -88,6 +104,16 @@ function saveFavourite(itemUrl) {
             localStorage.setItem('nasaFavourites', JSON.stringify(favourites))
         }
     })
+}
+
+// Remove item from Favourites
+function removeFavourite(itemUrl) {
+    if (favourites[itemUrl]) {
+        delete favourites[itemUrl]
+        // Set Favourites in localStorage
+        localStorage.setItem('nasaFavourites', JSON.stringify(favourites))
+        updateDOM('favourites')
+    }
 }
 
 // On Load
