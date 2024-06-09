@@ -17,6 +17,7 @@ This repository is designed to hold a collection of 20 JavaScript projects, whic
 11. [Video Player](#video-player)
 12. [Form Validator](#form-validator)
 13. [Spock Rock Game](#spock-rock-game)
+14. [NASA APOD](#nasa-apod)
 
 
 ### Quote Generator
@@ -119,4 +120,10 @@ Browser-based game implementing a Rock-Paper-Scissors-Lizard-Spock game logic. I
 
 ![Screen projektu](13-spock-rock-game/SpockRockGame.png)
 
+### NASA APOD
 
+:rocket: [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/14-nasa-apod/)
+
+Displays 10 images from the [NASA API](https://api.nasa.gov), allowing users to add them to their favorites. Favorites are saved in local storage to persist between sessions. A loading animation from [Loaf](https://getloaf.io) is used while images are being fetched.
+
+![Screen projektu](14-nasa-apod/NasaApod.png)

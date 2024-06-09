@@ -16,7 +16,7 @@ img {
     linear-gradient(90deg,var(--_c)) var(--_o) var(--_o);
   background-size: calc(100% - var(--_o)) calc(100% - var(--_o));
   background-repeat: no-repeat;
-  filter: grayscale(.4);
+  filter: grayscale(.5);
   transition: .5s;
   cursor: pointer;
 }
