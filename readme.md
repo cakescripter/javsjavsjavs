@@ -14,10 +14,16 @@ This repository is designed to hold a collection of 20 JavaScript projects, whic
 8. [Music Player](#music-player)
 9. [Custom Countdown](#custom-countdown)
 10. [Book Keeper](#book-keeper)
-11. [Video Player](#video-player)
+11. Video Player
 12. [Form Validator](#form-validator)
 13. [Spock Rock Game](#spock-rock-game)
 14. [NASA APOD](#nasa-apod)
+15. Math Sprint Game
+16. Drag n' Drop
+17. Calculator
+18. Splash Page
+19. Paint Clone
+20. Pong
 
 
 ### Quote Generator
@@ -108,7 +114,7 @@ TBA ; - D
 
 :rocket: [Live preview](https://vermillion-puffpuff-312cf5.netlify.app/12-form-validator/)
 
-Form checks the validity of user input, verifies password matching, and delivers color-coded feedback. Upon successful validation, it stores user data and can be conveniently extended for additional functionality. It operates effectively utilizing the Constraint API.
+Form checks the validity of user input, verifies password matching, and delivers color-coded feedback. Upon successful validation, it stores user data and can be conveniently extended for additional functionality. It operates effectively utilizing the [Constraint API](https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation).
 
 ![Screen projektu](12-form-validator/FormValidator.png)
  
